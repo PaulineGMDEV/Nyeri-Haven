@@ -4,13 +4,15 @@ img {
   border-radius: 10px;
 }
 h1 {
+  color: white;
   font-size: 50px;
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
   font-style: italic;
+  background-color:purple
 }
 .contact {
-  padding: 40px;
+  padding: 20px;
 }
 button {
   background-color: rgb(0, 0, 0);
@@ -20,15 +22,19 @@ button {
   border-radius: 5px;
   cursor: pointer;
 }
-nav > ul {
-  font-size: 20px;
-  flex wrap: wrap;
+nav > ul>li {
+  display: inline-block;
+  font-size: 15px;
   font-family: 'Times New Roman', Times, serif;
-  color: rgb(0, 0, 0);
-
+  margin-right: 30px;
+}
+nav > ul>li>a:hover {
+  color: white;
+  text-decoration: underline;
+  padding: 5px 10px;
 }
 footer {
-  background-color: rgb(0, 0, 0);
+  background-color:purple;
   color: white;
   text-align: center;
   padding: 5px;
